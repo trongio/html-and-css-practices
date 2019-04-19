@@ -9,17 +9,34 @@
     <body>
         
         <form action="/">
+            
+            <label>Phone:
+                    <input type="number" name="phone" required>
+            </label>
+            <label>E-mail:
+                    <input type="email" name="email" required>
+            </label>
+            <label>Password:
+                    <input type="password" name="password" required>
+            </label>
+            <label>Confirm Password:
+                <input type="password" name="confirmPassword" required>
+            </label>
+            
+            <label>Habitual Residence:
+                <select required name="habitat">
+                    <option>Tbilisi/vaja st/5</option>
+                    <option>Kutaisi/zestafoni st/9</option>
+                </select>
+            </label>
+            <label>Website:
+                <input type="url" name="website" required>
+            </label>
+            <label>
+                <input type="checkbox" name="Agreement" required>
+                I have read the <a href="google.com"></a>
+            </label>
 
-            <label>First Name
-                    <input type="text" name="firstName" >
-            </label>
-            <label>Second Name
-                    <input type="text" name="secondName" >
-            </label>
-            <label>Age
-                    <input type="text" name="age" >
-            </label>
-            <input type="reset" value="Kill ALL">
             <input type="submit" value="Send">
         
 
