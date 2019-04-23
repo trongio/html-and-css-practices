@@ -1,0 +1,24 @@
+h1{
+  color: salmon
+}
+h1:hover{
+  color: hotpink
+}
+body {
+  background-color: black;
+}
+img { 
+  border: 3px solid transparent; 
+} 
+img:hover { 
+  border: 3px solid whitesmoke; 
+}
+a{
+  color: honeydew;
+}
+span{
+  color: aqua
+}
+p{
+  color: aquamarine
+}
