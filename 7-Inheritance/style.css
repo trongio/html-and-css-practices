@@ -36,3 +36,10 @@
   color: red;
   padding: 10px 25px;
 }
+.small{
+  font-size: 15px;
+}
+
+.big{
+  font-size: 50px;
+}
