@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+
+.wrap{
+  position: fixed;
+  margin 0 auto;
+}
+.black{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color: black;
+}
+
+.t{
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: grey;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+
+.text{
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  font-size: 200px;
+}
