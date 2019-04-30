@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header, footer {
+  min-height: 150px;
+  background-color: blue;
+  margin-bottom: 20px;
+}
+
+.cell{
+  min-height: 150px;
+  background-color: blue;
+}
+
+.col{
+  margin-right: 20px;
+  
+}
+
+.row{
+  display: flex;
+  margin-bottom:20px;
+  justify-content: space-between;
+}
+.row .col:last-child{
+  margin-right: 0;
+}
+
+.col-1{
+  flex-grow: 1;
+}
+.col-2{
+  flex-grow: 2;
+}
+.col-3{
+  flex-grow: 3;
+}
