@@ -1,47 +1,274 @@
 *{
   box-sizing: border-box;
-  text-decoration: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-main{
-  width: 940px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-header, footer {
-  min-height: 150px;
-  background-color: blue;
-  margin-bottom: 20px;
-}
-
-.cell{
-  min-height: 150px;
-  background-color: blue;
-}
-
-.col{
-  margin-right: 20px;
+.box-wrapper{
+  max-width: 900px;
+  margin: 20 auto;
+  position: relative;
 }
 
 .row{
   display: flex;
-  margin-bottom:20px;
-  justify-content: center;
+  justify-content: flex-start;
 }
-.row .col:last-child{
-  margin-right: 0;
+
+.row-column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .col-1{
-  flex-grow: 1;
+  border: 3px solid black;
+  background: transparent;
+  width: 50px;
+  height: 100px;
 }
+
 .col-2{
-  flex-grow: 2;
+  border: 3px solid black;
+  background: yellow;
+  width: 50px;
+  height: 50px;
 }
+
 .col-3{
-  flex-grow: 3;
+  border: 3px solid black;
+  background: yellow;
+  width: 80px;
+  height: 30px;
+}
+
+.col-4{
+  border: 3px solid black;
+  background: yellow;
+  width: 80px;
+  height: 70px;
+}
+
+.col-5{
+  border: 3px solid black;
+  background: transparent;
+  width: 80px;
+  height: 50px;
+}
+
+.col-6{
+  border: 3px solid black;
+  background: yellow;
+  width: 50px;
+  height: 30px;
+}
+
+.col-7{
+  border: 3px solid black;
+  background: black;
+  width: 50px;
+  height: 120px;
+}
+
+
+.col-8{
+  border: 3px solid black;
+  background: transparent;
+  width: 100px;
+  height: 30px;
+}
+
+.col-9{
+  border: 3px solid black;
+  background: lightblue;
+  width: 100px;
+  height: 120px;
+}
+
+.col-10{
+  border: 3px solid black;
+  background: yellow;
+  width: 50px;
+  height: 70px;
+}
+
+.col-11{
+  border: 3px solid black;
+  background: orange;
+  width: 50px;
+  height: 20px;
+}
+
+.col-12{
+  border: 3px solid black;
+  background: yellow;
+  width: 80px;
+  height: 60px;
+}
+
+.col-13{
+  border: 3px solid black;
+  background: white;
+  width: 30px;
+  height: 90px;
+  position: absolute;
+  left: 330px;
+}
+
+.col-14{
+  border: 3px solid black;
+  background: red;
+  width: 40px;
+  height: 150px;
+}
+
+.col-15{
+  border: 3px solid black;
+  background: yellow;
+  width: 30px;
+  height: 150px;
+}
+
+.col-16{
+  border: 3px solid black;
+  background: yellow;
+  width: 180px;
+  height: 40px;
+}
+
+.col-17{
+  border: 3px solid black;
+  background: lightblue;
+  width: 180px;
+  height: 40px;
+}
+
+.col-18{
+  border: 3px solid black;
+  background: black;
+  width: 180px;
+  height: 50px;
+}
+
+.col-19{
+  border: 3px solid black;
+  background: yellow;
+  width: 50px;
+  height: 130px;
+}
+
+.col-20{
+  border: 3px solid black;
+  background: yellow;
+  width: 50px;
+  height: 20px;
+}
+
+.col-21{
+  border: 3px solid black;
+  background: orange;
+  width: 50px;
+  height: 110px;
+}
+
+.col-22{
+  border: 3px solid black;
+  background: white;
+  width: 50px;
+  height: 130px;
+}
+
+.col-23{
+  border: 3px solid black;
+  background: red;
+  width: 80px;
+  height: 30px;
+}
+
+.col-24{
+  border: 3px solid black;
+  background: orange;
+  width: 80px;
+  height: 100px;
+}
+.col-25{
+  border: 3px solid black;
+  background: yellow;
+  width: 50px;
+  height: 130px;
+}
+.col-26{
+  border: 3px solid black;
+  background: white;
+  width: 100px;
+  height: 130px;
+}
+
+
+
+.col-27{
+  border: 3px solid black;
+  background: black;
+  width: 120px;
+  height: 40px;
+}
+.col-28{
+  border: 3px solid black;
+  background: white;
+  width: 30px;
+  height: 40px;
+}
+
+.col-29{
+  border: 3px solid black;
+  background: yellow;
+  width: 90px;
+  height: 40px;
+}
+
+.col-30{
+  border: 3px solid black;
+  background: yellow;
+  width: 30px;
+  height: 40px;
+}
+
+.col-31{
+  border: 3px solid black;
+  background: red;
+  width: 60px;
+  height: 110px;
+  position: absolute;
+  top: 230px;
+  left: 280px;
+}
+
+.col-32{
+  border: 3px solid black;
+  background: orange;
+  width: 90px;
+  height: 70px;
+  position: absolute;
+  top: 230px;
+  left: 340px;
+}
+
+.col-33{
+  border: 3px solid black;
+  background: lightblue;
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  top: 300px;
+  left: 340px;
+}
+
+.col-34{
+  border: 3px solid black;
+  background: yellow;
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  top: 330px;
+  left: 280px;
 }
