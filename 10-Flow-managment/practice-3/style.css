@@ -1,54 +1,407 @@
 *{
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
- }
- 
- main{
-   float: left;
-   width: 900px;
-   margin: 0 auto;
- }
- 
- .row{
-   width: 100%;
- }
- 
- .cell{
-   float: left;
-   min-height: 100px;
- }
- .cell.solid{
-   border: 3px solid black;
- }
- .cell .row:last-child{
-   margin-bottom: 0;
- }
- .cell .row:last-child .cell{
-   margin-bottom: 0;
- }
- 
- .cell:last-child{
-   margin-right: 0;
- }
- 
- .col-1{
-   width: 100px;
-   height: 300px;
- }
- 
- .col-2{
-   width: 100px;
-   height:  100px;
- }
- 
- .col-3{
-   width: 100px;
-   height: 200px;
- }
- .row::after{
+  box-sizing: border-box;
+
+}
+
+main{
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.row{
+  width: 100%;
+  height: 100%;
+
+}
+
+.row::after{
    display: block;
-   content: '';
+   content: "";
    clear: both;
    visibility: hidden;
- }
+}
+
+.group1{
+}
+
+.group1::after{
+ display: block;
+ content: "";
+ clear: both;
+ visibility: hidden;
+}
+
+.clear{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-1{
+  border: black 3px solid;
+  width: 30px;
+  height: 90px;
+  float: left;
+}
+
+.col-2{
+  background-color: yellow;
+  border: black 3px solid;
+  width: 70px;
+  height:30px;
+  float: left;
+}
+
+.col-3{
+  background-color: yellow;
+  border: black 3px solid;
+  width: 70px;
+  height: 60px;
+  float: left;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.col-4{
+  border: black 3px solid;
+  width: 70px;
+  height: 60px;
+  float: left;
+  position: absolute;
+  top: 90px;
+  left: 30px;
+}
+
+.col-5{
+  background-color: yellow;
+  border: black 3px solid;
+  width: 30px;
+  height: 60px;
+  float: left;
+  position: absolute;
+  top: 90px;
+  left: 0;
+
+}
+
+.col-6{
+  background-color: yellow;
+  border: black 3px solid;
+  width: 40px;
+  height: 30px;
+  float: left;
+
+}
+
+.col-7{
+  background-color: black;
+  border: black 3px solid;
+  width: 40px;
+  height: 120px;
+  float: left;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+
+.col-8{
+  border: black 3px solid;
+  width: 100px;
+  height: 30px;
+  float: left;
+}
+
+.col-9{
+  background-color: lightblue;
+ border: black 3px solid;
+ width: 100px;
+ height: 120px;
+ float: left;
+ position: absolute;
+ top: 30px;
+ left: 140px;
+}
+
+.col-10{
+  background-color: yellow;
+ border: black 3px solid;
+ width: 50px;
+ height: 80px;
+ float: left;
+ position: absolute;
+ left: 240px;
+}
+
+.col-11{
+  background-color: orange;
+ border: black 3px solid;
+ width: 50px;
+ height: 20px;
+ float: left;
+ position: absolute;
+ top: 75px;
+ left: -3px;
+}
+
+.col-12{
+ background: yellow;
+ border: black 3px solid;
+ width: 80px;
+ height: 52px;
+ float: left;
+ position: absolute;
+ top: 95px;
+ left: -3px;
+}
+
+.col-13{
+ border: black 3px solid;
+ width: 30px;
+ height: 100px;
+ float: left;
+ position: absolute;
+ left: 45px;
+ top: -3px;
+}
+
+.col-14{
+  background: red;
+ border: black 3px solid;
+ width: 30px;
+ height: 150px;
+ float: left;
+ position: absolute;
+ left: 0px;
+ left: 317px;
+}
+.col-15{
+ background: yellow;
+border: black 3px solid;
+width: 30px;
+height: 150px;
+float: left;
+position: absolute;
+left: 0px;
+left: 347px;
+}
+
+.group-2{
+ position: relative;
+}
+
+.col-16{
+ background: yellow;
+border: black 3px solid;
+width: 143px;
+height: 50px;
+float: left;
+position: absolute;
+top: 60px;
+left: 0px;
+}
+
+.col-17{
+ background: lightblue;
+ border: black 3px solid;
+ width: 143px;
+ height: 50px;
+ float: left;
+ position: absolute;
+ top: 30px;
+ left: -3px;
+}
+.col-18{
+ background: black;
+border: black 3px solid;
+width: 143px;
+height: 60px;
+float: left;
+position: absolute;
+top: 60px;
+left: -3px;
+}
+.col-19{
+ background: yellow;
+border: black 3px solid;
+width: 50px;
+height: 123px;
+float: left;
+position: absolute;
+left: 143px;
+top: 60px;
+}
+.col-20{
+ background: yellow;
+border: black 3px solid;
+width: 50px;
+height: 20px;
+float: left;
+position: absolute;
+top: 60px;
+left: 190px;
+}
+
+.col-21{
+ background: orange;
+border: black 3px solid;
+width: 50px;
+height: 110px;
+float: left;
+position: absolute;
+top: 10px;
+left: -3px;
+}
+
+.col-22{
+ background: black;
+border: black 3px solid;
+width: 110px;
+height: 40px;
+float: left;
+position: absolute;
+top: 60px;
+left: 240px;
+}
+
+.col-23{
+ background: yellow;
+border: black 3px solid;
+width: 75px;
+height: 40px;
+float: left;
+position: absolute;
+top: 35px;
+left: -5px;
+}
+.col-24{
+ background: yellow;
+border: black 3px solid;
+width: 37px;
+height: 40px;
+float: left;
+position: absolute;
+top: 35px;
+left: 70px;
+}
+
+.col-25{
+border: black 3px solid;
+width: 30px;
+height: 43px;
+float: left;
+position: absolute;
+top: -5px;
+left: 105px;
+}
+.col-26{
+ background: yellow;
+border: black 3px solid;
+width: 30px;
+height: 40px;
+float: left;
+position: absolute;
+top: 35px;
+left: 105px;
+}
+
+.col-27{
+ background: yellow;
+border: black 3px solid;
+width: 138px;
+height: 40px;
+float: left;
+position: absolute;
+top: 215px;
+left: 240px;
+}
+
+.col-28{
+ background: lightblue;
+border: black 3px solid;
+width: 108px;
+height: 40px;
+float: left;
+position: absolute;
+top: 175px;
+left: 270px;
+}
+
+.col-29{
+ background: orange;
+border: black 3px solid;
+width: 108px;
+height: 40px;
+float: left;
+position: absolute;
+top: 135px;
+left: 270px;
+}
+
+.col-30{
+ background: red;
+border: black 3px solid;
+width: 30px;
+height: 80px;
+float: left;
+position: absolute;
+top: 135px;
+left: 240px;
+}
+
+.col-31{
+ background: white;
+border: black 3px solid;
+width: 110px;
+height: 75px;
+float: left;
+position: absolute;
+top: 180px;
+left: 130px;
+}
+
+.col-32{
+ background: yellow;
+border: black 3px solid;
+width: 30px;
+height: 75px;
+float: left;
+position: absolute;
+top: 180px;
+left: 100px;
+}
+
+.col-33{
+ background: orange;
+border: black 3px solid;
+width: 70px;
+height: 65px;
+float: left;
+position: absolute;
+top: 190px;
+left: 30px;
+}
+
+.col-34{
+ background: red;
+border: black 3px solid;
+width: 70px;
+height: 15px;
+float: left;
+position: absolute;
+top: 180px;
+left: 30px;
+}
+
+.col-35{
+ background: white;
+border: black 3px solid;
+width: 30px;
+height: 75px;
+float: left;
+position: absolute;
+top: 180px;
+left: 0px;
+}
