@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+main{
+    width: 1170px;
+    margin: 30px auto;
+}
+article{
+    width: 1173px;
+    height: 1770.61
+}
+.poster{
+    height: 800px;
+    width: 1171px;
+    background-color: #ECF0F1;
+    margin-bottom: 47px;
+}
+.content header h1{
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 36px;
+    color: #2C3E50;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+}
+.content header p span{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 36px;
+    color: #A1B1BC;
+    word-spacing: -0.3px;
+}
+.content header p span::after{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #ECF0F1;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.content header p span:last-child::after{
+    display: none;
+}
+.content header{
+    padding-bottom: 19px;
+    border-bottom: 1px solid #ECF0F1;
+    margin-bottom: 21.6px;
+}
+.text p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    margin-bottom: 26.1px;
+}
+
+.indent{
+    width: 1143px;
+    height: 165px;
+    margin-left: 30px;
+    margin-bottom: 45.9px;
+    border: 1px solid #ECF0F1
+}
+.block{
+    width: 10.01px;
+    height: 162px;
+    background-color: #21C2F8;
+    float: left;
+    margin-top:14px;
+}
+.indent h1{
+    font-family: 'Roboto';
+    display: inline-block;
+    margin-left: 59.4px;
+    margin-top: 55.3px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+.indent p{
+    font-family: 'Roboto';
+    margin-left: 69.6px;
+    margin-top: 10.3px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A1B1BC;
+    max-width: 886px;
+}
+.txt{
+    font-family: 'Roboto';
+    margin-bottom: 40.1px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #A1B1BC;
+    max-width: 1140px;
+
+}
+.txt::first-letter{
+    font-size: 30px;
+    line-height: 15.18px;
+    color: #21C2F8;
+    background-color: #34495E;
+    padding: 14px 12px;
+    float: left;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.header-2 h1{
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 30px;;
+    margin-bottom: 14.4px;
+    color: #34495E;
+}
+.header-2 p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+}
