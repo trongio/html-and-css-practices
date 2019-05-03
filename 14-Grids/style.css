@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+section{
+  width: 600px;
+  height: 600px;
+  margin:50px auto 0;
+  display: grid;
+  grid-gap: 3px;
+}
+
+section > div {
+  background-color: aqua;
+}
+.cell{
+  grid-column: 1/2;
+}
+.cell-1 {
+  grid-row: span 1;
+}
+.cell-2{
+  grid-row: span 2;
+  grid-column: 2/4;
+}
+.cell-3{
+  grid-row: span 2;
+  grid-column: span 1;
+}
